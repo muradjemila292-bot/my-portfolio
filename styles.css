@@ -1,0 +1,110 @@
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #007bff, #8e2de2);
+  background-clip: text;
+  color: transparent;
+}
+.navbar-brand:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #8e2de2, #007bff);
+  background-clip: text;
+  color: transparent;
+}
+.nav-link:hover {
+  color: darkgrey !important;
+}
+.hero {
+  background-image: url(./Images/pexels-filipe-braggio-57041688-17766789.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.8;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero .content {
+  position: relative;
+  z-index: 1;
+}
+.projects,
+.certificates,
+.contact {
+  background: linear-gradient(to right, #000, #330000);
+}
+.card {
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+.card img {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.card:hover {
+  transform: scale(1.03);
+}
+@keyframes slider {
+  0% {
+    translate: 0;
+  }
+  100% {
+    translate: -1650px;
+  }
+}
+.images {
+  width: 3300px;
+  animation: slider 10s linear infinite;
+}
+.images img {
+  width: 550px;
+  height: 350px;
+  border-radius: 10px;
+}
+.btn1 {
+  background: linear-gradient(to right, #007bff, #8e2de2);
+}
+.btn1:hover,
+.btn2:hover {
+  background: linear-gradient(to right, #8e2de2, #007bff);
+  color: #fff;
+}
+.btn2:hover {
+  border: none;
+}
+@media (min-width: 576px) {
+  .about-desc {
+    width: 90%;
+  }
+}
+@media (min-width: 830px) {
+  .about-desc {
+    width: 70%;
+  }
+}
+@media (min-width: 1020px) {
+  .about-desc {
+    width: 60%;
+  }
+}

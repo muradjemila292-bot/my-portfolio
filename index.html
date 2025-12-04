@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Jemila</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarLinks"
+            aria-controls="navbarLinks"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarLinks"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#certificates"
+                  >Certificates</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="about" class="hero w-100 vh-100 py-5">
+        <div
+          class="content d-flex flex-column justify-content-center h-100 ms-4 text-white"
+        >
+          <h2 class="montserrat fs-1">About Me</h2>
+          <p class="about-desc fs-5 mt-3">
+            Hi! I'm <span class="navbar-brand">Jemila</span>, a beginner web
+            developer learning HTML and CSS. I love creating clean and modern
+            websites and improving my skills everyday. I'm excited to build
+            projects and share them here in my portfolio.
+          </p>
+        </div>
+      </section>
+      <section id="projects" class="projects w-100 h-auto py-5">
+        <h2 class="montserrat text-white fs-1 pt-5 text-center">Projects</h2>
+        <div class="container d-flex justify-content-center mt-5">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./Images/apple.png"
+                  class="card-img-top"
+                  alt="apple"
+                />
+                <div class="card-body py-3">
+                  <h5 class="card-title text-center py-3">
+                    Apple Website Clone
+                  </h5>
+                  <p class="card-text">
+                    A responsive clone of the apple homepage built with HTML and
+                    CSS. Focused on layout, typography and responsiveness.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./Images/card.png" class="card-img-top" alt="card" />
+                <div class="card-body py-3">
+                  <h5 class="card-title text-center py-3">Card Game UI</h5>
+                  <p class="card-text">
+                    A simple card game interface created with HTML and CSS.
+                    Focused on practicing flexbox.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./Images/coffee.png"
+                  class="card-img-top"
+                  alt="coffee"
+                />
+                <div class="card-body py-3">
+                  <h5 class="card-title text-center py-3">
+                    Coffee Shop Website
+                  </h5>
+                  <p class="card-text">
+                    A modern coffee shop website featuring menu highlights, cozy
+                    design and responsiveness.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./Images/ecommerce.png"
+                  class="card-img-top"
+                  alt="earth"
+                />
+                <div class="card-body py-3">
+                  <h5 class="card-title text-center py-3">
+                    E-commerce Website
+                  </h5>
+                  <p class="card-text">
+                    A simple e-commerce website where users can browse products,
+                    add them to a cart, and confirm their order.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./Images/todo-list.png"
+                  class="card-img-top"
+                  alt="todo-list"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center py-3">To-Do List App</h5>
+                  <p class="card-text">
+                    Interacctive to-do list project with dynamic task management
+                    and responsive design.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./Images/fish.png" class="card-img-top" alt="fish" />
+                <div class="card-body">
+                  <h5 class="card-title text-center py-3">Fish Tank</h5>
+                  <p class="card-text">
+                    Designed a fish tank layout with fish and elements arranged
+                    using flexbox for clean alignment.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="certificates" class="certificates w-100 vh-100 py-5">
+        <h2 class="montserrat text-white fs-1 pt-5 text-center">
+          Certificates
+        </h2>
+        <div
+          class="images d-flex justify-content-center align-items-center mt-5 gap-3"
+        >
+          <img src="./Images/android.png" alt="android-certificate" />
+          <img src="./Images/programming.png" alt="programming-certificate" />
+
+          <img
+            src="./Images/data-analysis.png"
+            alt="data-analysis-certificcate"
+          />
+          <img src="./Images/android.png" alt="android-certificate" />
+          <img src="./Images/programming.png" alt="programming-certificate" />
+
+          <img
+            src="./Images/data-analysis.png"
+            alt="data-analysis-certificcate"
+          />
+        </div>
+      </section>
+      <section id="contact" class="contact w-100 pt-3 pb-5">
+        <h2 class="montserrat text-white fs-1 text-center">Contact</h2>
+        <div class="container d-flex flex-column mt-5 text-white">
+          <h2 class="mb-4">Get in Touch</h2>
+          <p class="mb-4">
+            I’d love to connect! You can reach me through email or socials
+            below.
+          </p>
+          <a href="mailto:jemila@example.com" class="btn btn1 m-2 text-white"
+            >📧 Email Me</a
+          >
+          <a href="https://t.me/Jemila" class="btn btn2 btn-outline-light m-2"
+            >💬 Telegram</a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
